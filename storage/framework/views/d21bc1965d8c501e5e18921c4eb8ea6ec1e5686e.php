@@ -133,6 +133,11 @@
                 </div>
             </div>
         </div>
+
+        <script src="<?php echo e(asset('js/alpine.js')); ?>"></script>
+        <script src="<?php echo e(asset('js/app.js')); ?>"></script>
+
+
     </body>
 </html>
 <?php /**PATH /var/www/html/resources/views/welcome.blade.php ENDPATH**/ ?>
