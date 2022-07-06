@@ -134,7 +134,7 @@
             </div>
         </div>
 
-        <script src="<?php echo e(asset('js/alpine.js')); ?>"></script>
+
         <script src="<?php echo e(asset('js/app.js')); ?>"></script>
 
 
