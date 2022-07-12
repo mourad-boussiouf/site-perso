@@ -9,5 +9,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("/var/www/html/plugin.js")],
+  plugins: [require("./plugin")],
 };
