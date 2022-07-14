@@ -1,3 +1,3 @@
-<div>
+<x-app-layout>
     Content
-</div>
+</x-app-layout>
