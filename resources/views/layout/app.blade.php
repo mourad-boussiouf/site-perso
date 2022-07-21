@@ -172,7 +172,7 @@
 <!-- ====== Navbar Section End -->
 {{ $slot }}
 
-<footer></footer>
+<footer>Footer</footer>
 <script src="{{ asset('js/app.js') }}"></script>
 
 
