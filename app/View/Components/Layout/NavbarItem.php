@@ -14,9 +14,15 @@ class NavbarItem extends Component
      */
     public function __construct()
     {
-        [
 
-        $this->navigationItems = ['label'=>'About', 'href'=>'#about'],
+
+        $this->navigationItems = [
+
+            ['label'=>'Mon Cv', 'href'=>'#currvitae'],
+            ['label'=>'Projets', 'href'=>'#portfolio'],
+            ['label'=>'Mon linkedin', 'href'=>'#linkedin'],
+            ['label'=>'Contact', 'href'=>'#contact']
+
 
         ];
 
