@@ -23,7 +23,6 @@ class NavbarItem extends Component
             ['label'=>'Mon linkedin', 'href'=>'#linkedin'],
             ['label'=>'Contact', 'href'=>'#contact']
 
-
         ];
 
     }
