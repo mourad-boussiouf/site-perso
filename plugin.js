@@ -17,7 +17,7 @@ module.exports = plugin(
       },
 
       [`body`]: {
-        fontFamily: `"Inter", sans-serif`,
+        fontFamily: `"Redressed", sans-serif`,
       },
 
       [`.navbarTogglerActive > span:nth-child(1)`]: {
