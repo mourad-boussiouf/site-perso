@@ -12,7 +12,7 @@ class NavbarItem extends Component
      *
      * @return void
      */
-    public function __construct(string $href)
+    public function __construct(public string $href)
     {
         $this->href = $href;
     }
