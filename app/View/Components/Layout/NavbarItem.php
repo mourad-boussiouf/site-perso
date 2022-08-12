@@ -6,13 +6,14 @@ use Illuminate\View\Component;
 
 class NavbarItem extends Component
 {
-    public array $navigationItems = [];
+    public string $href = '#';
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(public string $href)
+    public function __construct(string $href)
     {
         $this->href = $href;
     }

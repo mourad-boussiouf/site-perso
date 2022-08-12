@@ -21,4 +21,30 @@
             </div>
             <div class="flex px-4 justify-end items-center w-full">
                 <div>
+                    <x-navbar-hamburger @click="navbarOpen = !navbarOpen" x-bind:class="navbarOpen && 'navbarTogglerActive'"></x-navbar-hamburger>
+                    <nav
+                        :class="!navbarOpen && 'hidden' "
+                        id="navbarCollapse"
+                        class="
+                          absolute
+                          py-5
+                          px-6
+                          bg-white
+                          shadow
+                          rounded-lg
+                          max-w-[250px]
+                          w-full
+                          lg:max-w-full lg:w-full
+                          right-4
+                          top-full
+                          lg:block lg:static lg:shadow-none
+                        "
+                    >
+                        <ul class="blcok lg:flex">
+                            @foreach($navigationItems as $item)
+                                <x-navbar-item :href="$item['href']">{{ $item['label'] }}</x-navbar-item>
+                            @endforeach
+                        </ul>
+                    </nav>
+                </div>
 
