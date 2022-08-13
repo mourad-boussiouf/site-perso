@@ -37,15 +37,15 @@
                <span class="font-semibold text-lg text-primary mb-2 block">
                Pourquoi me choisir ?
                </span>
-                    <h2 class="font-bold text-3xl sm:text-4xl text-dark mb-8">
-                        Vous m'avez prit pour un arriviste ?!
+                    <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
+                        Vous m'avez prit pour arriviste ?!
                     </h2>
                     <p class="text-base text-body-color mb-8">
                         Comme dirait kekra... En effet je suis avant tout un mordu d'informatique,
                         ne pensez pas qu'en tant que déchet de fac de lettres car "je n'aurais pas les bases". Je sais faire des
                         bit manipulation et bim !
                     </p>
-                    <h2 class="font-bold text-3xl sm:text-4xl text-dark mb-8">
+                    <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
                         "Ta que ça comme stack pelo ?!"
                     </h2>
                     <p class="text-base text-body-color mb-12">

@@ -5,16 +5,18 @@
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
                     <h1
-                        class="text-dark font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3"
+                        class="text-dark font-bold text-4xl sm:text-[32px] lg:text-[30px] xl:text-[32px] leading-snug mb-3"
 >
+                        <br/>
+                        <br/>
 Mourad BOUSSIOUF <br/>
-                        Développeur web. <br/>
+
 
                     </h1>
                     <p class="text-base mb-8 text-body-color max-w-[480px]">
  <br>
 Mourad, 24 ans, développeur web<br>
-depuis 2 ans, et étudiant à La plateforme, contactez moi !
+depuis 2 ans, et étudiant à La plateforme, ce site présente mon parcours ainsi que mes projets.
                     </p>
                     <ul class="flex flex-wrap items-center">
                         <li>
@@ -36,7 +38,7 @@ depuis 2 ans, et étudiant à La plateforme, contactez moi !
                                   rounded-lg
                                 "
 >
-Get Started
+ME CONTACTER
 </a>
                         </li>
                         <li>
