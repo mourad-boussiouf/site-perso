@@ -1,19 +1,19 @@
 <?php
 
-namespace App\View\Components\Layout;
+namespace App\View\Components;
 
 use Illuminate\View\Component;
-use function view;
 
-class NavbarItem extends Component
+class PortfolioSection extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(public string $href)
+    public function __construct()
     {
+        //
     }
 
     /**
@@ -23,6 +23,6 @@ class NavbarItem extends Component
      */
     public function render()
     {
-        return view('layout.navbar-item');
+        return view('components.portfolio-section');
     }
 }
