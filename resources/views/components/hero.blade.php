@@ -12,9 +12,9 @@ Mourad BOUSSIOUF <br/>
 
                     </h1>
                     <p class="text-base mb-8 text-body-color max-w-[480px]">
-Building things is what matters most. <br>
-Learning by building is what gives you most. <br>
-I develop web solutions for all kind of problems, feel free to contact me
+ <br>
+Mourad, 24 ans, développeur web<br>
+depuis 2 ans, et étudiant à La plateforme, contactez moi !
                     </p>
                     <ul class="flex flex-wrap items-center">
                         <li>
@@ -86,7 +86,7 @@ Get Started
                                             />
                                   </svg>
                                 </span>
-Check what I built previously
+Mes projets terminés
 </a>
                         </li>
                     </ul>
@@ -101,7 +101,7 @@ Check what I built previously
                     mb-2
                   "
 >
-Follow me on social media
+Mon linkedin
 <span
                                 class="w-8 h-[1px] bg-body-color inline-block ml-2"
 ></span>
