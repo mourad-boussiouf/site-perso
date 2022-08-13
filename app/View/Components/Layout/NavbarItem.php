@@ -1,18 +1,16 @@
 <?php
-
-namespace App\View\Components\Layout;
-
+namespace App\View\Components;
 use Illuminate\View\Component;
 
 class NavbarItem extends Component
 {
     public string $href = '#';
-
     /**
      * Create a new component instance.
      *
      * @return void
      */
+
     public function __construct(string $href)
     {
         $this->href = $href;

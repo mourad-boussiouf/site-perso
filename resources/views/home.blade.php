@@ -26,7 +26,7 @@
                 Watch on YouTube
             </a>
     </x-call-to-action>
-    <x-about-section></x-about-section>
+    <x-quisuisje-section></x-quisuisje-section>
     <x-portfolio-section></x-portfolio-section>
     <x-video-tutorials></x-video-tutorials>
     <x-testimonials></x-testimonials>

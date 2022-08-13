@@ -47,4 +47,8 @@
                         </ul>
                     </nav>
                 </div>
-
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ====== Navbar Section End -->
