@@ -11,15 +11,15 @@
                         <br/>
                         <br/>
 Mourad BOUSSIOUF <br/>
-                        <span class="px-2 rounded-md text-amber-600">Web_dev</span>
+                        <span class="px-2 rounded-md text-amber-600">web_dev</span>
 
                     </h1>
-                    <p class="text-base mb-8 text-body-color max-w-[480px]">
+                    <p class="text-base dark:text-gray-400 mb-8  max-w-[480px] ">
  <br>
-Mourad, 24 ans, développeur web<br>
-depuis 2 ans, et étudiant à La plateforme, ce site présente mon parcours ainsi que mes projets.
+Je suis un développeur web agé de 24 ans.<br> Né et basé à Marseille.<br>
+En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également étudiant à La plateforme, grande école du numérique, ce site présente mon parcours ainsi que mes projets.
                     </p>
-                    <ul class="flex flex-wrap items-center">
+                    <ul class="flex flex-wrap items-center">g
                         <li>
                             <a
                                 href="#projects"
@@ -48,10 +48,24 @@ depuis 2 ans, et étudiant à La plateforme, ce site présente mon parcours ains
                         <h6
                             class="font-normal text-xs flex items-center text-body-color mb-2"
 >
-Mon linkedin
-<span
-                                class="w-8 h-[1px] bg-body-color inline-block ml-2"
->
+                            <a href="https://www.linkedin.com/in/mourad-boussiouf-/" class="
+   py-4
+   px-10
+   lg:px-8
+   xl:px-10
+   inline-flex
+   items-center
+   justify-center
+   text-center text-white text-base
+   bg-primary
+   hover:bg-opacity-90
+   font-normal
+   rounded-md
+   ">
+                                Mon linkedin
+                            </a>
+
+
 
                             </span>
                         </h6>
@@ -72,7 +86,7 @@ Mon linkedin
                         </br>
                         </br>
                         <img
-                            src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
+                            src="https://i.ibb.co/QdwvXY7/imgportfolio1.png"
                             alt="hero"
                             class="max-w-full lg:ml-auto"
                         />

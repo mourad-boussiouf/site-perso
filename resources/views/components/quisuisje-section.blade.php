@@ -1,5 +1,5 @@
 <!-- ====== About Section Start -->
-<section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden ">
+<section class="dark:bg-slate-800 pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
     <div class="container">
         <div class="flex flex-wrap justify-between items-center -mx-4">
             <div class="w-full lg:w-6/12 px-4">
@@ -40,7 +40,7 @@
                     <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
                         Vous m'avez prit pour arriviste ?!
                     </h2>
-                    <p class="text-base text-body-color mb-8">
+                    <p class="text-base dark:text-gray-400 mb-8">
                         Comme dirait kekra... En effet je suis avant tout un mordu d'informatique,
                         ne pensez pas qu'en tant que déchet de fac de lettres car "je n'aurais pas les bases". Je sais faire des
                         bit manipulation et bim !
@@ -48,10 +48,11 @@
                     <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
                         "Ta que ça comme stack pelo ?!"
                     </h2>
-                    <p class="text-base text-body-color mb-12">
-                        Mais le stack que tu ne vois pas c'est mes 150 mots à la minute...
-                        En effet, mes longs doigts de jeune hurluberlu dispensé d'EPS google à vitesse grand V,
-                        je laisserais la concurrence sur le carreau ! (sauf les chinois il ne faut pas abuser)
+                    <p class="text-base dark:text-gray-400 mb-8">
+
+                        Mais le stack que tu ne vois pas c'est mes 80 mots à la minute...
+                        En effet, mes longs doigts de jeune hurluberlu dispensé d'EPS tapent sur google à vitesse grand V !
+                        Je laisserais la concurrence sur le carreau ! (sauf les chinois il ne faut pas abuser)
                         Faite confiance à ma capacité d'apprentissage, que j'ai déjâ mit à l'oeuvre par le passé
                         pour apprendre
                         l'outil assez dense "Asterix" , par exemple.
