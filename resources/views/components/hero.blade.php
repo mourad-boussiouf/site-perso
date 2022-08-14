@@ -64,6 +64,13 @@ Mon linkedin
             <div class="w-full lg:w-6/12 px-4">
                 <div class="lg:text-right lg:ml-auto">
                     <div class="relative inline-block z-10 pt-11 lg:pt-0">
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
                         <img
                             src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
                             alt="hero"
