@@ -19,7 +19,7 @@ Mourad BOUSSIOUF <br/>
 Je suis un développeur web agé de 24 ans.<br> Né et basé à Marseille.<br>
 En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également étudiant à La plateforme, grande école du numérique, ce site présente mon parcours ainsi que mes projets.
                     </p>
-                    <ul class="flex flex-wrap items-center">g
+                    <ul class="flex flex-wrap items-center">
                         <li>
                             <a
                                 href="#projects"
