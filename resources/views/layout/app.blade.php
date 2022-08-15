@@ -24,5 +24,6 @@
         {{ $slot }}
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
+    <x-layout.footer></x-layout.footer>
     </body>
     </html>
