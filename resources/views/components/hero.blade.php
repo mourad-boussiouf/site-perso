@@ -45,30 +45,7 @@ En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également
                     </li>
                     </ul>
                     <div class="clients pt-16">
-                        <h6
-                            class="font-normal text-xs flex items-center text-body-color mb-2"
->
-                            <a href="https://www.linkedin.com/in/mourad-boussiouf-/" class="
-   py-4
-   px-10
-   lg:px-8
-   xl:px-10
-   inline-flex
-   items-center
-   justify-center
-   text-center text-white text-base
-   bg-primary
-   hover:bg-opacity-90
-   font-normal
-   rounded-md
-   ">
-                                Mon linkedin
-                            </a>
-
-
-
-                            </span>
-                        </h6>
+                        <x-social-icons class="mb-0"></x-social-icons>gt
                         <div class="flex items-center">
                         </div>
                     </div>
