@@ -74,21 +74,24 @@ En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également
                     </div>
                 </div>
             </div>
-            <div class="hidden lg:block lg:w-1/12 px-4"></div>
-            <div class="w-full lg:w-6/12 px-4">
+            <div class="hidden lg:block lg:w-1/12 px-4">
+            </div>
+            <div class="w-full lg:w-6/12 px-10">
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
                 <div class="lg:text-right lg:ml-auto">
-                    <div class="relative inline-block z-10 pt-11 lg:pt-0">
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
+
+                    <div class="relative inline-block z-20 pt-20 lg:pt-0 -bottom-7">
+
                         <img
                             src="https://i.ibb.co/QdwvXY7/imgportfolio1.png"
                             alt="hero"
-                            class="max-w-full lg:ml-auto"
+                            class="max-w-full lg:ml-auto "
                         />
                         <span class="absolute -left-8 -bottom-8 z-[-1]">
                           <svg
