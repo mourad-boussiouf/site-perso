@@ -3,7 +3,7 @@
     <div class="container">
         <div class="flex flex-wrap justify-between">
       <span class="inline-flex items-center text-xl">
-        Retrouvez moi sur Github, linkedin...
+       Pour me retrouver sur Github, Linkedin, avoir mon CV ->
       </span>
             <x-social-icons class="mb-0"></x-social-icons>
         </div>

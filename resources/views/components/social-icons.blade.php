@@ -1,4 +1,4 @@
-<div class="flex items-center mb-6">
+<div class="flex items-center mb-6 ">
     <a
         href="https://github.com/mourad-boussiouf"
         target="_blank"
