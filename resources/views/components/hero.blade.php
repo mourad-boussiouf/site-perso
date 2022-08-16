@@ -15,7 +15,6 @@ Mourad BOUSSIOUF <br/>
 
                     </h1>
                     <p class="text-base dark:text-gray-400 mb-8  max-w-[480px] ">
- <br>
 Je suis un développeur web agé de 24 ans.<br> Né et basé à Marseille.<br>
 En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également étudiant à La plateforme, grande école du numérique, ce site présente mon parcours ainsi que mes projets.
                     </p>
@@ -26,7 +25,7 @@ En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également
                             </x-button-link>
                         </li>
                     </ul>
-                    <div class="clients pt-16">
+                    <div class="clients pt-24">
                         <x-social-icons class="mb-0"></x-social-icons>
                         <div class="flex items-center">
                         </div>
@@ -36,10 +35,6 @@ En apprentissage quotidien depuis 2 ans et pour encore longtemps.<br> Également
             <div class="hidden lg:block lg:w-1/12 px-4">
             </div>
             <div class="w-full lg:w-6/12 px-10">
-                </br>
-                </br>
-                </br>
-                </br>
                 </br>
                 </br>
                 </br>

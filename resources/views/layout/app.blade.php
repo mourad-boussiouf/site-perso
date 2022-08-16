@@ -20,7 +20,7 @@
     </head>
 
     <body class="antialiased text-gray-800 dark:text-gray-200">
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
+    <div class="min-h-screen bg-white-100 dark:bg-white-900 pt-4">
         <x-layout.navbar :items="$navigationItems">
 
         </x-layout.navbar>
