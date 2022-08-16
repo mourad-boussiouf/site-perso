@@ -6,6 +6,9 @@ use Illuminate\View\Component;
 
 class portfolio extends Component
 {
+
+    public array $items = [];
+    public array $tabs = [];
     /**
      * Create a new component instance.
      *

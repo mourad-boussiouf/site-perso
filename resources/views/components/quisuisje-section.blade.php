@@ -34,20 +34,20 @@
             </div>
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="mt-10 lg:mt-0">
-               <span class="font-semibold text-lg text-primary mb-2 block">
+               <span class="font-semibold text-xl text-primary mb-2 block">
                Pourquoi me choisir ?
                </span>
                     <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
-                        "Vous m'avez prit pour arriviste ?!"
+                        "Vous m'avez prit pour arriviste ?"
                     </h2>
                     <p class="text-base dark:text-gray-400 mb-8">
                         Comme dirait kekra... En effet, je suis avant tout un vrai curieux et passionné dans mon domaine.
-                        Certains prétendent que les autodidactes n'auraient, je cite, "pas les bases"... </br>Et bien ces gens là nagent en plein délire.</br>
+                        Certains prétendent que les autodidactes ayant fréquenté les bancs d'une fac de lettres (comme moi), n'auraient, je cite, "pas les bases"... </br>Et bien ces gens là nagent en plein délire.</br>
                         Je sais faire des
                         bits manipulation et bim !
                     </p>
                     <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
-                        "Ta que ça comme stack pelo ?!"
+                        "Ta que ça comme stack chacale ?!"
                     </h2>
                     <p class="text-base dark:text-gray-400 mb-8">
 
@@ -59,7 +59,7 @@
                         des outils assez denses tel que "Asterix*", par exemple.
                     </p>
                     <a
-                        href="javascript:void(0)"
+                        href="#contact"
                         class="
                           py-4
                           px-10
