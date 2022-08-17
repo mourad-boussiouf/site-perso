@@ -55,8 +55,8 @@
                         Effectivement, mes longs doigts de jeune hurluberlu dispensé d'EPS tapent sur google à vitesse grand V !
                         Je laisserais la concurrence sur le carreau ! (sauf les chinois il ne faut pas abuser).</br>
                         Faites confiance à ma capacité d'apprentissage que j'ai déjâ mit à l'oeuvre par le passé
-                        pour apprendre
-                        des outils assez denses tel que "Asterix*", par exemple.
+                        pour utiliser
+                        des outils assez denses et complexes tel que "Asterix*", par exemple.
                     </p>
                     <a
                         href="#contact"

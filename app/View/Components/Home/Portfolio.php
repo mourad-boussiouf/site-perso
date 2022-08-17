@@ -1,52 +1,55 @@
 <?php
 
-namespace App\View\Components\home;
+namespace App\View\Components\Home;
 
+use Illuminate\Support\Arr;
 use Illuminate\View\Component;
+use function url;
+use function view;
 
-class portfolio extends Component
+class Portfolio extends Component
 {
 
     public array $items = [];
     public array $tabs = [];
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
+
+
     public function __construct()
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'Tailwind.css','AlpineJS','HTML/CSS'],
-                'tile' => 'Full stack app qui est mon portfolio réalisé grâce à Laravel, Tailwindcss et AlpineJS',
+                'category' => ['Laravel', 'TailwindCSS','AlpineJS','HTML/CSS'],
+                'title' => 'Site personnel/portfolio réalisé grâce à Laravel, TailwindCSS et AlpineJS.',
                 'image' => url('/img/portfoliosite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/site-perso'
             ],
             [
                 'category' => ['Javascript','HTML/CSS'],
-                'tile' => 'Barre autocompletion sur le thème de Dragon ball, fetch JS depuis un JSON.',
+                'title' => 'Barre autocompletion sur le thème de Dragon ball, fetch JS depuis un JSON.',
                 'image' => url('/img/autocompletionsite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/autocompletion'
             ],
             [
                 'category' => ['PHP','HTML/CSS'],
-                'tile' => 'Site de E-commerce réalisé uniquement en PHP native, architecture MVC à des fins de compréhension.',
+                'title' => 'Site de E-commerce réalisé uniquement en PHP native, architecture MVC à des fins de compréhension.',
                 'image' => url('/img/ecommercesite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/boutique-en-ligne'
             ],
             [
                 'category' => ['HTML/CSS'],
-                'tile' => 'Site vitrine "Corée du sud" touristique fait uniquement en HTML/CSS',
+                'title' => 'Site vitrine "Corée du sud" touristique fait uniquement en HTML/CSS.',
                 'image' => url('/img/coreedusudsite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/voyages'
-            ],            [
+            ],
+            [
                 'category' => ['Javascript','HTML/CSS'],
-                'tile' => 'Jeu de clicker/incrémentation "Michael Bay Simulator" en Javascript',
+                'title' => 'Jeu de clicker/incrémentation "Michael Bay Simulator" Javascript Vanilla only.',
                 'image' => url('/img/mbssite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/clicker'
-            ]
+            ],
         ];
+
+        $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
     }
 
     /**
@@ -57,5 +60,6 @@ class portfolio extends Component
     public function render()
     {
         return view('components.home.portfolio');
+
     }
 }

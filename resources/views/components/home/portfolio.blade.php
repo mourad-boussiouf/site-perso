@@ -1,5 +1,6 @@
+<!-- ====== Portfolio Section Start -->
 <section
-    id = "portfolio"
+    id="portfolio"
     x-data="
         {
           selectedTab: 'all',
@@ -13,16 +14,15 @@
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
                 <div class="text-center mx-auto mb-[60px] max-w-[510px]">
-                    <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
-                        Mes projets récents
+                    <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-600-300 mb-4">
+                        Mes projets les plus récents
                     </h2>
                     <p class="text-base text-body-color">
-                        Je travaille probablement en ce moment même sur un projet personnel.
+                        J'apprend en codant mes projets perso. Je test de nouvelles façons de faire et je construis petit à petit mon expertise.
                     </p>
                 </div>
             </div>
         </div>
-    </div>
         <div class="flex flex-wrap justify-center -mx-4">
             <div class="w-full px-4">
                 <ul class="flex flex-wrap justify-center mb-12 space-x-1">
@@ -30,37 +30,17 @@
                         <button
                             @click="selectedTab = 'all' "
                             :class="selectedTab == 'all' ? activeClasses : inactiveClasses "
-                            class="
-                                inline-block
-                                py-2
-                                md:py-3
-                                px-5
-                                lg:px-8
-                                rounded-lg
-                                text-base
-                                font-semibold
-                                text-center
-                                transition"
+                            class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition "
                         >
-                            Tous les projets
+                            Tous
                         </button>
                     </li>
                     @foreach($tabs as $tab)
                         <li class="mb-1">
                             <button
                                 @click="selectedTab = '{{$tab}}' "
-                                :class="selectedTab == '{{$tab}}' ? activeClasses : inactiveClasses "
-                                class="
-                                inline-block
-                                py-2
-                                md:py-3
-                                px-5
-                                lg:px-8
-                                rounded-lg
-                                text-base
-                                font-semibold
-                                text-center
-                                transition">
+                                :class="selectedTab === '{{$tab}}' ? activeClasses : inactiveClasses "
+                                class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition ">
                                 {{$tab}}
                             </button>
                         </li>
@@ -68,13 +48,14 @@
                 </ul>
             </div>
         </div>
-    <div class = "flex flex-wrap -mx-4">
+        <div class="flex flex-wrap -mx-4">
             @foreach ($items as $item)
-                <x-portfolio-item   :title="$item['title']"
-                                    :categories="$item['category']"
-                                    :image="$item['image']"
-                                    :github="$item['github']"</x-portfolio-item>
+                <x-portfolio-item :title="$item['title']"
+                                  :categories="$item['category']"
+                                  :image="$item['image']"
+                                  :github="$item['github']"></x-portfolio-item>
             @endforeach
         </div>
     </div>
 </section>
+<!-- ====== Portfolio Section End -->
