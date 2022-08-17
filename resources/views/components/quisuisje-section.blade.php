@@ -47,7 +47,7 @@
                         bits manipulation et bim !
                     </p>
                     <h2 class="font-bold text-3xl sm:text-4xl text-white mb-8">
-                        "Ta que ça comme stack chacale ?!"
+                        "Ta que ça comme stack newbie ?!"
                     </h2>
                     <p class="text-base dark:text-gray-400 mb-8">
 

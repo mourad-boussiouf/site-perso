@@ -8,7 +8,7 @@
             <h2
                 class=" text-white font-bold text-3xl sm:text-[37px] leading-tight mb-6 sm:mb-8 lg:mb-0 "
             >Mon objectif : sécurité, accessibilité. <br class="hidden xs:block"/>
-                Développeur web passionné. Stack : PHPw/laravel, JS, linux, docker
+                Développeur web passionné. Stack : PHPw/laravel, JS, linux, docker.
             </h2>
             </x-slot>
             <a
