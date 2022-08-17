@@ -39,8 +39,8 @@
                 <ul class="flex flex-wrap justify-center mb-12 space-x-1">
                     <li class="mb-1">
                         <button
-                            @click="showCards = 'all' "
-                            :class="showCards == 'all' ? activeClasses : inactiveClasses "
+                            @click="selectedTab = 'all' "
+                            :class="selectedTab == 'all' ? activeClasses : inactiveClasses "
                             class="
                                 inline-block
                                 py-2
@@ -59,8 +59,8 @@
                     </li>
                     <li class="mb-1">
                         <button
-                            @click="showCards = 'branding' "
-                            :class="showCards == 'branding' ? activeClasses : inactiveClasses "
+                            @click="selectedTab = '{{$tab}}' "
+                            :class="selectedTab == '{{$tab}}' ? activeClasses : inactiveClasses "
                             class="
                                 inline-block
                                 py-2
@@ -74,6 +74,7 @@
                                 transition
                               "
                         >
+                            {{$tab}}
                             Laravel
                         </button>
                     </li>

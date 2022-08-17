@@ -20,27 +20,15 @@
 
                 </a>
             </div>
-            <div class="flex px-4 justify-end items-center w-full">
+            <div class="flex px-4 justify-end items-center w-full ">
+
                 <div>
                     <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen"
                                                x-bind:class="navbarOpen && 'navbarTogglerActive'"></x-layout.navbar-hamburger>
                     <nav
                         :class="!navbarOpen && 'hidden' "
                         id="navbarCollapse"
-                        class="
-                          absolute
-                          py-5
-                          px-6
-                          bg-white
-                          shadow
-                          rounded-lg
-                          max-w-[250px]
-                          w-full
-                          lg:max-w-full lg:w-full
-                          right-4
-                          top-full
-                          lg:block lg:static lg:shadow-none
-                        "
+                        class="absolute right-0 top-full bg-white py-5 px-6 z-50 shadow rounded-lg w-full dark:bg-white dark:text-gray-300 lg:px-0 lg:max-w-full lg:w-full lg:right-4 lg:block lg:static lg:shadow-none"
                     >
                         <ul class="block lg:flex lg:items-center">
                             @foreach($navigationItems as $item)
