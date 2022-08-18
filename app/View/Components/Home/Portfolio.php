@@ -18,7 +18,7 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'TailwindCSS','AlpineJS','HTML/CSS'],
+                'category' => ['Laravel', 'TailwindCSS','AlpineJS'],
                 'title' => 'Site personnel/portfolio réalisé grâce à Laravel, TailwindCSS et AlpineJS.',
                 'image' => url('/img/portfoliosite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/site-perso'
@@ -31,12 +31,12 @@ class Portfolio extends Component
             ],
             [
                 'category' => ['PHP','HTML/CSS'],
-                'title' => 'Site de E-commerce réalisé uniquement en PHP native, architecture MVC à des fins de compréhension.',
+                'title' => 'Site de E-commerce réalisé en PHP native, architecture MVC à des fins de compréhension.',
                 'image' => url('/img/ecommercesite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/boutique-en-ligne'
             ],
             [
-                'category' => ['HTML/CSS'],
+                'category' => ['HTML/CSS','Javascript'],
                 'title' => 'Site vitrine "Corée du sud" touristique fait uniquement en HTML/CSS.',
                 'image' => url('/img/coreedusudsite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/voyages'
