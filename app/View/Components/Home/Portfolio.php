@@ -18,30 +18,35 @@ class Portfolio extends Component
     {
         $this->items = [
             [
+                'link' => 'http://localhost',
                 'category' => ['Laravel', 'TailwindCSS','AlpineJS'],
                 'title' => 'Site personnel/portfolio réalisé grâce à Laravel, TailwindCSS et AlpineJS.',
                 'image' => url('/img/portfoliosite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/site-perso'
             ],
             [
+                'link' => 'https://mourad-boussiouf.students-laplateforme.io/autocompletion',
                 'category' => ['Javascript','HTML/CSS'],
                 'title' => 'Barre autocompletion sur le thème de Dragon ball, fetch JS depuis un JSON.',
                 'image' => url('/img/autocompletionsite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/autocompletion'
             ],
             [
+                'link' => 'https://mourad-boussiouf.students-laplateforme.io/boutique-en-ligne',
                 'category' => ['PHP','HTML/CSS'],
                 'title' => 'Site de E-commerce réalisé en PHP native, architecture MVC à des fins de compréhension.',
                 'image' => url('/img/ecommercesite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/boutique-en-ligne'
             ],
             [
-                'category' => ['HTML/CSS','Javascript'],
+                'link' => 'https://mourad-boussiouf.students-laplateforme.io/voyages/voyage2.html',
+                'category' => ['HTML/CSS'],
                 'title' => 'Site vitrine "Corée du sud" touristique fait uniquement en HTML/CSS.',
                 'image' => url('/img/coreedusudsite.png'),
                 'github' => 'https://github.com/mourad-boussiouf/voyages'
             ],
             [
+                'link' => 'https://mourad-boussiouf.students-laplateforme.io/michaelbaysimulator',
                 'category' => ['Javascript','HTML/CSS'],
                 'title' => 'Jeu de clicker/incrémentation "Michael Bay Simulator" Javascript Vanilla only.',
                 'image' => url('/img/mbssite.png'),
