@@ -9,11 +9,13 @@
                     <p class="text-base text-body-color dark:text-gray-200 leading-relaxed mb-9">
                         Si vous avez besoin d'un développeur apte à répondre au marché actuel, contactez moi librement.
                     </p>
-                    <div class="flex mb-8 max-w-[370px] w-full">
+                    <div class="flex mb-8 max-w-[370px] w-full ">
                         <div
                             class="
+                            hidden
                             max-w-[60px]
                             sm:max-w-[70px]
+                            sm:inline-block
                             w-full h-[60px]
                             sm:h-[70px] flew items-center justify-center
                             mr-6 overflow-hidden
@@ -37,15 +39,80 @@
                             <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
                                 Email :
                             </h4>
-                            <p class ="text-base text-body-color dark:text-gray-300">mourad.boussiouf@laplateforme.io</p>
+                            <p class ="text-sm text-body-color dark:text-gray-300">mourad.boussiouf@laplateforme.io</p>
+                            <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
+                                Téléphone :
+                            </h4>
+                            <p class ="text-base text-body-color dark:text-gray-300">+33 6 51 24 28 31</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="bg-white dark:bg-slate-900 relative rounded-lg p-8 sm:p-12 shadow-lg">
+                    <form action="/contact/submit" method="POST" x-data="
+                        {
+                            formData: {
+                              name: '',
+                              email: '',
+                              message: '',
+                            },
 
+                            errors: {},
+                            successMessage: '',
 
+                            submitForm(event) {
+                            this.successMessage = '';
+                            this.errors = {};
+                                fetch('/contact/submit' , {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type: 'application/json',
+                                        'X-Requested-With': 'XMLHttpRequest',
+                                        'X-CSRF-TOKEN': document.querySelector('meta[name='csrf-token]').getAttribute('content')
+
+                                    },
+                                    body: JSON.stringify(this.formData)
+                                })
+                            }
+                        }
+                           " x-on:submit.prevent="submitForm">
+                        @csrf
+                        <div class="mb-6">
+                            <x-forms.input placeholder="Votre nom" name="name" x-model="formData.name"></x-forms.input>
+                        </div>
+                        <div class="mb-6">
+                            <x-forms.input type="email" placeholder="Votre email" name="email" x-model="formData.email"></x-forms.input>
+                        </div>
+                        <div class="mb-6">
+                            <x-forms.textarea placeholder="Écrire un message" name="message" rows="6" x-model="formData.message"></x-forms.textarea>
+                        </div>
+                        <div>
+                            <x-button class="w-full">
+                                Envoyer
+                            </x-button>
+                        </div>
+                    </form>
+                    <div>
+                        <span class="absolute -top-10 -right-9 z-[-1]">
+                         <svg
+                             width="100"
+                             height="100"
+                             viewBox="0 0 100 100"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                                >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
+                                fill="#3056D3"
+                            />
+                         </svg>
+                        </span>
+                        <x-contact-dots-top></x-contact-dots-top>
+                        <x-contact-dots-bottom></x-contact-dots-bottom>
+                    </div>
                 </div>
             </div>
         </div>
