@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 <x-app-layout>
     <x-hero></x-hero>
     <x-call-to-action>
