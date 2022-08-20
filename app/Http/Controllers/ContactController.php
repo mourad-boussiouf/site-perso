@@ -13,7 +13,9 @@ class ContactController extends Controller
                 'email' => ['required', 'email'],
                 'message' => 'required'
             ]);
-
+            //envoyer le mail
+            Mail::to('mourad.boussiouf@laplateforme.io')
+                ->send(new ContactMail($validated['name'],$validated['email'],$validated['message']));
             //envoyer lemail
             return ['success' => true];
         }
