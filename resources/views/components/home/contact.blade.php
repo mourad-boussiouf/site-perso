@@ -56,7 +56,7 @@
             </div>
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="bg-white dark:bg-slate-900 relative rounded-lg p-8 sm:p-12 shadow-lg">
-                    <form action="/contact/submit" method="POST" x-data="
+{{--                    <form action="/contact/submit" method="POST" x-data="
           {
               formData: {
                 name: '',
@@ -125,10 +125,10 @@
                         </div>
                         <div>
                             <x-button class="w-full">
-                                Send Message
+                                Envoyer
                             </x-button>
                         </div>
-                    </form>
+                    </form>--}}
                     <div>
             <span class="absolute -top-10 -right-9 z-[-1]">
                <svg
