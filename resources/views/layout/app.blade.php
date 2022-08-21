@@ -13,7 +13,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>La moumou</title>
+       <title>Mourad BOUSSIOUF - Développeur web FULL STACK</title>
+       <link rel="icon" href="https://images.assetsdelivery.com/compings_v2/liliiakliliiakyrylenko/liliiakliliiakyrylenko1708/liliiakliliiakyrylenko170800009.jpg">
 
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
